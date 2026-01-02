@@ -109,7 +109,7 @@ function App() {
         />
         {/* ✅ NEW: Student Evaluation Route */}
         <Route
-          path="/student/evaluation/:evaluationId"
+          path="/student/evaluation/evaluationId"
           element={
             <ProtectedRoute allowedRole="student">
               <StudentEvaluation />
